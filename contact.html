@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        
+        header {
+            background: #35424a;
+            color: #fff;
+            padding: 20px 0;
+            border-bottom: #e8491d 3px solid;
+        }
+        
+        header a,
+        header h1 {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        header h1 {
+            text-align: center;
+            margin: 0;
+            font-size: 2.5em;
+            animation: slideIn 2s ease-out;
+        }
+        
+        header nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        header nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+            transition: color 0.3s;
+        }
+        
+        header nav a:hover {
+            color: #e8491d;
+        }
+        
+        .container {
+            padding: 30px 0;
+            text-align: center;
+        }
+        
+        .contact-card {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            max-width: 600px;
+            margin: 30px auto;
+        }
+        
+        footer {
+            background: #35424a;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+        
+        footer a {
+            color: #e8491d;
+            text-decoration: none;
+        }
+        
+        footer a:hover {
+            text-decoration: underline;
+        }
+        
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        /* Responsive Styles */
+        
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+            header nav a {
+                font-size: 1em;
+                margin: 0 10px;
+            }
+            .contact-card {
+                padding: 20px;
+                max-width: 90%;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 1.5em;
+            }
+            header nav a {
+                display: block;
+                margin: 10px 0;
+            }
+            .contact-card {
+                padding: 15px;
+            }
+            .contact-card h2 {
+                font-size: 1.5em;
+            }
+            .contact-card p {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Contact Me</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="favorite.html">My favorite</a>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class="contact-card">
+            <h2>Contact Information</h2>
+            <p>Line: thanadit2542</p>
+            <p>Phone: 061-228-3232</p>
+            <p>Instagram: <a href="https://www.instagram.com/th_dit/" target="_blank">@th_dit</a></p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Tanadit Charoensuttithum. Follow me on
+            <a href="https://www.facebook.com/thanadit.charoensuttithum.3" target="_blank">Facebook</a>
+        </p>
+    </footer>
+</body>
+
+</html>

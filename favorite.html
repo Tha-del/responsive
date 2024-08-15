@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorite</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+        
+        header a,
+        header h1 {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        header h1 {
+            text-align: center;
+            margin: 0;
+            font-size: 2.5em;
+        }
+        
+        header nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        header nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+        
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        
+        footer a {
+            color: #77aaff;
+            text-decoration: none;
+        }
+        
+        .favorite-item {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 20px 0;
+            padding: 20px;
+            overflow: hidden;
+        }
+        
+        .favorite-item img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        
+        .favorite-item h3 {
+            color: #77aaff;
+        }
+        
+        .favorite-item p {
+            font-size: 1em;
+        }
+        /* Responsive Styles */
+        
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+            }
+            header h1 {
+                font-size: 2em;
+            }
+            header nav a {
+                font-size: 1em;
+                margin: 0 10px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 1.8em;
+            }
+            header nav a {
+                font-size: 0.9em;
+                margin: 5px;
+                display: block;
+            }
+            .favorite-item {
+                padding: 15px;
+            }
+            .favorite-item h3 {
+                font-size: 1.5em;
+            }
+            .favorite-item p {
+                font-size: 0.9em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>My Favorite</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="favorite.html">My Favorite</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <section id="favorite">
+            <div class="favorite-item">
+                <h3>Favorite Character: Monkey D. Luffy</h3>
+                <img src="https://miro.medium.com/v2/resize:fit:875/1*2YvC-WqO7gFkpFzNrqQ6Eg.jpeg" alt="Monkey D. Luffy" />
+                <p>Monkey D. Luffy is the main character of One Piece. He is the captain of the Straw Hat Pirates and is known for his rubber-like abilities gained from eating the Gum-Gum Fruit.</p>
+            </div>
+            <div class="favorite-item">
+                <h3>Favorite Arc: Marineford</h3>
+                <img src="https://hoganreviews.co.uk/wp-content/uploads/2019/12/op-marineford-arc-4.jpg" alt="Marineford Arc" />
+                <p>The Marineford Arc is one of the most intense and emotional arcs in One Piece. It features the war between the Marines and the Whitebeard Pirates, with Luffy trying to save his brother Ace.</p>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Tanadit Charoensuttithum. Follow me on
+            <a href="https://www.instagram.com/th_dit/" target="_blank">Instagram</a>
+        </p>
+    </footer>
+</body>
+
+</html>

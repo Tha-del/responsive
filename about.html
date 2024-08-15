@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #229fd8, #a6e1fa);
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header,
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        
+        header h1,
+        footer p {
+            margin: 0;
+        }
+        
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 1.2em;
+        }
+        
+        nav a:hover {
+            text-decoration: underline;
+        }
+        
+        .about-content {
+            padding: 30px 0;
+        }
+        
+        .about-card {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            max-width: 600px;
+            margin: 30px auto;
+            text-align: center;
+        }
+        
+        .about-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+        
+        footer a {
+            color: #77aaff;
+            text-decoration: none;
+        }
+        
+        footer a:hover {
+            text-decoration: underline;
+        }
+        /* Responsive Styles */
+        
+        @media (max-width: 768px) {
+            nav a {
+                font-size: 1em;
+                margin: 0 8px;
+            }
+            .about-card {
+                padding: 20px;
+                margin: 20px auto;
+            }
+            .about-card h2 {
+                font-size: 1.8em;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            nav a {
+                display: block;
+                margin: 10px 0;
+                font-size: 1.1em;
+            }
+            .about-card {
+                padding: 15px;
+            }
+            .about-card h2 {
+                font-size: 1.5em;
+            }
+            .about-content {
+                padding: 20px 0;
+            }
+            .about-image {
+                max-width: 80%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>About Me</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="favorite.html">My favorite</a>
+        </nav>
+    </header>
+    <div class="about-content">
+        <div class="about-card">
+            <img src="./folder 1/cat meme.jpg" alt="Cat meme" class="about-image">
+            <h2>Tanadit Charoensuttithum</h2>
+            <p>สวัสดีครับ ผมชื่อ ธนดิษฐ์ เจริญสุทธิธรรม อายุ 25 ปี</p>
+            <p>ชื่อเล่น อาร์ต</p>
+            <p>เบอร์โทรศัพท์ 061-228-3232</p>
+            <p><a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">Email</a></p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Tanadit Charoensuttithum. Follow me on
+            <a href="https://www.instagram.com/th_dit/" target="_blank">Instagram</a>
+        </p>
+    </footer>
+</body>
+
+</html>
